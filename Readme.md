@@ -70,6 +70,11 @@ static err_t http_callback(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_
 
     // Envia a resposta HTTP
     tcp_write(tpcb, HTTP_RESPONSE, strlen(HTTP_RESPONSE), TCP_WRITE_FLAG_COPY);
+```
+
+## Vídeo do projeto
+
+https://youtu.be/LSzBRtT2_fo
 
     // Libera o buffer recebido
     pbuf_free(p);
