@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 // Defina o SSID e a senha da sua rede Wi-Fi
-#define WIFI_SSID "Iphone de Silas"
-#define WIFI_PASS "kenjigostoso"
+#define WIFI_SSID ""
+#define WIFI_PASS ""
 
 // Lista de bloqueio de IPs
 const char *blocked_ips[] = {
